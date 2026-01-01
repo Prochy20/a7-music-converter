@@ -2,6 +2,17 @@
 
 A CLI tool that converts audio and video files to high-quality MP3 format with intelligent metadata handling and automatic file renaming.
 
+## Primary Use Case
+
+This tool is specifically designed to convert music files for **Audi A7 C7 (2012-2018) MMI 3G/3G+ systems** on SD cards. The output format (320kbps, 44.1kHz stereo MP3) is optimized for maximum compatibility and audio quality within the MMI's supported specifications:
+
+- **MMI System**: MMI 3G / MMI 3G+
+- **Supported MP3 specs**: 32-320kbps, VBR 8-48kHz (recommended minimum 160kbps)
+- **SD Card format**: FAT32 (single partition required)
+- **Also supports**: AAC, WMA (though this tool outputs MP3)
+
+The 320kbps bitrate ensures the highest quality audio playback while remaining fully compatible with the MMI system.
+
 ## Features
 
 - **High-quality output**: 320kbps, 44.1kHz, stereo MP3
